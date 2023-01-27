@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* section 1 CSS  */
+.section1_heading>h1{
+    margin: 2rem 0;
+}
+.minescraft_box{
+    border-bottom: 1px solid #0000001c;
+    padding-bottom: 4rem;
+}
+.minecraft_heading>h1{
+    background-color: #7200dc;
+    border-radius: 3px;
+    color: white;
+    font-size: 32px;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.minecraft_inner_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.minecraft_data{
+    width: 335px;
+    height: auto;
+    margin-top: 1.5rem;
+    
+}
+.minecraft_data>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.minecraft_data>p{
+    font-size: 19.2px;
+    line-height: 38.4px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+.minecraft_data>a{
+   
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.minecraft_data>a:active,
+.minecraft_data>a:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .minecraft_data>a {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* section 1 CSS  */
+
+/* order section CSS  */
+.ordersection_heading>h1{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.order_section_section2{
+    height: 400px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.order_items{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_items>a{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: #fee589;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.order_items>a:hover{
+    color: #fee589;
+    background-color: white;
+}
+/* order section CSS  */

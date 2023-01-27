@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* section 1 Title/Team  CSS  */
+.minecraft_data>h3{
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    border-left: 3px solid #7200dc;
+}
+/* section 1 Title/Team  CSS  */
+
+/* testimonial section CSS  */
+.Testimonial_section{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(233, 150, 150); */
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  /* font-family: 'Open Sans'; */
+}
+#demo{
+  /* background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%); */
+  background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+
+
+  max-width: 900px;
+  margin: auto;
+}
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: rgba(78, 77, 77, 0.856);
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem;
+  background-color: #ffffff;
+}
+.arrow_move{
+  background-color: #7200dc;
+  color: white;
+}
+@media(max-width:767px){
+  .carousel-caption {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color: rgba(78, 77, 77, 0.856);
+      text-align: center;
+      font-size: 0.7rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem;
+  }
+}
+.carousel-caption img{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+@media(max-width:767px){
+  .carousel-caption img{
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem;
+  }
+}
+#image-caption{
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+@media(max-width:767px){
+  #image-caption{
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem;
+  }
+}
+i{
+  background-color: rgb(223, 56, 89);
+  padding: 1.4rem;
+}
+@media(max-width:767px){
+  i{
+      padding: 0.8rem;
+  }
+}
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+.carousel-control-prev,.carousel-control-next{
+  transition: none;
+  opacity: unset;
+}
+/* testimonial section CSS  */
+
+/* footer CSS  */
+.address_icon{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+/* footer CSS  */
